@@ -3,35 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trendnews24 - نبذة عن القناة</title>
+    <title>Trendnews24h - من نحن</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="p-5 bg-primary text-white text-center">
-        <img src="logo.jpg" alt="Trendnews24 Logo" class="logo mb-3">
-        <h1>مرحبًا بكم في Trendnews24</h1>
-        <p>المصدر الموثوق للأخبار والتحليلات</p>
+    <!-- شريط التنقل -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Trendnews24h</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">الرئيسية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#mission">مهمتنا</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#vision">رؤيتنا</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#values">قيمنا</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">اتصل بنا</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- مقدمة الصفحة التعريفية مع خلفية متحركة -->
+    <header class="header text-center py-5">
+        <div class="container">
+            <h1 class="display-4">مرحبًا بكم في Trendnews24h</h1>
+            <p class="lead">منصة إعلامية تركز على تقديم التحليلات العميقة والرؤى المستندة إلى الحقائق.</p>
+            <a class="btn btn-primary btn-lg" href="#mission">اكتشف المزيد</a>
+        </div>
     </header>
-    <section class="about bg-light p-5 text-center">
-        <h2>نبذة عن القناة</h2>
-        <p>نقدم لكم الأخبار العاجلة، التحليلات العميقة، ومقاطع الفيديو الحصرية. نعمل على مدار الساعة لجلب الأخبار الدقيقة والمعلومات المفيدة.</p>
+
+    <!-- قسم مهمتنا -->
+    <section id="mission" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">مهمتنا</h2>
+            <p class="lead text-center">نسعى لتقديم معلومات دقيقة وموثوقة لجمهورنا من خلال التحليلات العميقة والتغطيات المستندة إلى الحقائق.</p>
+        </div>
     </section>
-    <section class="social-media p-5">
-        <div class="container text-center">
-            <h3>تابعونا على</h3>
-            <div class="icons">
-                <a href="https://facebook.com/yourprofile" class="icon mx-3"><i class="fab fa-facebook-f fa-2x"></i></a>
-                <a href="https://twitter.com/yourprofile" class="icon mx-3"><i class="fab fa-twitter fa-2x"></i></a>
-                <a href="https://instagram.com/yourprofile" class="icon mx-3"><i class="fab fa-instagram fa-2x"></i></a>
-                <a href="https://youtube.com/yourprofile" class="icon mx-3"><i class="fab fa-youtube fa-2x"></i></a>
-                <a href="https://linkedin.com/yourprofile" class="icon mx-3"><i class="fab fa-linkedin fa-2x"></i></a>
+
+    <!-- قسم رؤيتنا مع خلفية متحركة -->
+    <section id="vision" class="py-5 text-white vision-bg">
+        <div class="container">
+            <h2 class="text-center mb-4">رؤيتنا</h2>
+            <div class="row text-center">
+                <div class="col-md-6">
+                    <h3>الريادة الإعلامية</h3>
+                    <p>نسعى لنكون مصدرًا رئيسيًا للمعلومات الموثوقة وتحليل الأحداث العالمية بعمق وشمولية.</p>
+                </div>
+                <div class="col-md-6">
+                    <h3>الابتكار الرقمي</h3>
+                    <p>نحن نعمل على دمج أحدث التقنيات الرقمية لتقديم محتوى إعلامي مبتكر يلبي احتياجات الجمهور في عصر السرعة الرقمية.</p>
+                </div>
             </div>
         </div>
     </section>
-    <footer class="py-4 bg-dark text-white text-center">
-        <p>© 2024 Trendnews24. جميع الحقوق محفوظة.</p>
+
+    <!-- قسم قيمنا -->
+    <section id="values" class="py-5 bg-light text-center">
+        <div class="container">
+            <h2>قيمنا</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>الشفافية</h4>
+                    <p>نحن ملتزمون بتقديم الأخبار والمعلومات بشفافية كاملة، لنكون مصدرًا موثوقًا للجمهور.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>المصداقية</h4>
+                    <p>نحن نلتزم بنقل الحقائق دون تحريف أو تزييف، للحفاظ على ثقة متابعينا.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>الاستقلالية</h4>
+                    <p>نحن قناة إعلامية مستقلة، نسعى دائمًا لتقديم وجهات نظر محايدة تستند إلى الحقائق.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- الفوتر -->
+    <footer id="contact" class="footer bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>© 2024 Trendnews24h. جميع الحقوق محفوظة.</p>
+            <p>تواصل معنا عبر البريد الإلكتروني: info@trendnews24h.com</p>
+            <div class="social-icons mt-3">
+                <a href="#" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
     </footer>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
