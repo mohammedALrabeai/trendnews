@@ -6,27 +6,68 @@
     <title>Trendnews24 - نبذة عن القناة</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center; /* توسيط النص في الصفحة */
+        }
+
+        .typing-effect {
+            display: inline-block;
+            border-right: 2px solid #333;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: blink-caret 0.75s step-end infinite;
+            font-size: 2rem; /* حجم الخط */
+            margin: 20px 0; /* مساحة فوق وتحت النص */
+        }
+
+        @keyframes blink-caret {
+            from, to { border-color: transparent; }
+            50% { border-color: black; }
+        }
+    </style>
 </head>
 <body>
     <header>
-        <img src="logo.jpg" alt="Trendnews24 Logo" class="logo">
+        <img src="logo2.png" alt="Trendnews24 Logo" class="logo">
         <h1>مرحبًا بكم في Trendnews24</h1>
     </header>
     <section class="about">
-        <h2>نبذة عن القناة</h2>
+        <h2>نبذة عن المنصة</h2>
         <p>ترند نيوز 24 هي قناتكم الأولى لمتابعة آخر الأخبار والتحليلات العميقة. نعدكم بتقديم أحدث المعلومات من مصادر موثوقة.</p>
     </section>
+    <section class="typing-effect" id="typed-output"></section>
     <section class="social-media">
         <h2>تابعونا على</h2>
         <div class="icons">
-            <a href="https://facebook.com/yourprofile" class="icon"><i class="fab fa-facebook-f"></i></a>
-            <a href="https://twitter.com/yourprofile" class="icon"><i class="fab fa-twitter"></i></a>
-            <a href="https://instagram.com/yourprofile" class="icon"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61566756830740" class="icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://x.com/Trendnews24gulf" class="icon"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/trendnews24gulf/" class="icon"><i class="fab fa-instagram"></i></a>
             <a href="https://youtube.com/yourprofile" class="icon"><i class="fab fa-youtube"></i></a>
-        </div>
+            <a href="https://linkedin.com/yourprofile" class="icon"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://wa.me/yourwhatsappnumber" class="icon"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://tiktok.com/@yourprofile" class="icon"><i class="fab fa-tiktok"></i></a>
+            <a href="mailto:youremail@domain.com" class="icon"><i class="fas fa-envelope"></i></a>
+       </div>
     </section>
     <footer>
         <p>© 2024 Trendnews24. جميع الحقوق محفوظة.</p>
     </footer>
+    
+    <script>
+        const options = {
+            strings: ["منصة متخصصة بنشر الأخبار والمحتوى الأكثر تداولا على منصات السوشال ميديا"],
+            typeSpeed: 50, // سرعة الكتابة
+            backSpeed: 25, // سرعة الحذف
+            backDelay: 1000, // تأخير الحذف
+            loop: true // إعادة الكتابة
+        };
+
+        new Typed('#typed-output', options);
+    </script>
 </body>
 </html>
